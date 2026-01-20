@@ -13,14 +13,15 @@ CREATE TABLE orders(
 
 INSERT INTO suppliers(SupplierID, SupplierName)
 VALUES
-('S1', 'supplier_1'),
-('S2', 'supplier_2'),
-('S3', 'supplier_3'),
-('S4', 'supplier_4')
+('S1', 'BricksRUs'),
+('S2', 'RoofULike'),
+('S3', 'Flawless Floors'),
+('S4', 'Hart Electricals')
 
 INSERT INTO orders(OrderID, SupplierID, OrderDate)
 VALUES
-(1001, 'S1', 2023),
-(1002, 'S2', 2024),
-(1003, 'S5', 2025)
+(1001, 'S1', 2024),
+(1002, 'S2', 2025),
+(1003, 'S5', 2026)
+
 
